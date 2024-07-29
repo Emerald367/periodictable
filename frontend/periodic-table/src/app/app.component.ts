@@ -5,9 +5,10 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `<div class="min-h-screen min-w-full bg-slate-800">
+  </div>`,
+  styles: []
 })
 export class AppComponent {
-  title = 'Hello World';
+  title = 'Element Explorer';
 }
