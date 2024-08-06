@@ -4,12 +4,12 @@ import {Component} from '@angular/core'
     selector: 'second-row',
     standalone: true,
     template: `
-       <div class="max-w-full overflow-x-auto">
+       <div class="max-w-full overflow-x-auto mb-1">
         <div class="flex flex-wrap justify-center">
          <!-- Lithium -->
-         <div class="element bg-blue-200 p-4 text-center">Li</div>
+         <div class="element bg-gradient-to-r from-pink-500 to-red-600 p-4 text-center text-white font-mont mr-1">Li</div>
          <!-- Beryllium -->
-         <div class="element bg-green-200 p-4 text-center">Be</div>
+         <div class="element bg-gradient-to-r from-red-500 to-amber-600 p-4 text-center text-white font-mont mr-5">Be</div>
          <!-- Empty Spaces -->
          <div class="empty-space"></div>
          <div class="empty-space"></div>
@@ -26,17 +26,17 @@ import {Component} from '@angular/core'
          <div class="empty-space"></div>
          <div class="empty-space"></div>
          <!-- Boron -->
-         <div class="element bg-blue-200 p-4 text-center">B</div>
+         <div class="element bg-gradient-to-r from-fuchsia-500 to-violet-700 p-4 text-center text-white font-mont ml-6 mr-1">B</div>
          <!-- Carbon -->
-         <div class="element bg-green-200 p-4 text-center">C</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">C</div>
          <!-- Nitrogen -->
-         <div class="element bg-red-200 p-4 text-center">N</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">N</div>
          <!-- Oxygen --> 
-         <div class="element bg-orange-200 p-4 text-center">O</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">O</div>
          <!-- Fluorine --> 
-         <div class="element bg-yellow-200 p-4 text-center">F</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">F</div>
          <!-- Neon -->
-         <div class="element bg-green-200 p-4 text-center">Ne</div>
+         <div class="element bg-gradient-to-r from-lime-400 to-green-700  p-4 text-center text-white font-mont">Ne</div>
         </div>
        </div>
     `,
@@ -50,7 +50,7 @@ import {Component} from '@angular/core'
       .empty-space {
         flex: 1 0 5 5.55%;
         max-width: 5.55%; 
-        min-width: 50px;
+        min-width: 49.4px;
       }
     `]
 })

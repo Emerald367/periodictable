@@ -4,44 +4,44 @@ import {Component} from '@angular/core'
     selector: 'fifth-row',
     standalone: true,
     template: `
-      <div class="max-w-full overflow-x-auto">
+      <div class="max-w-full overflow-x-auto mb-1">
        <div class="flex flex-wrap justify-center">
         <!-- Rubidium -->
-        <div class="element bg-green-200 p-4 text-center">Rb</div>
+        <div class="element bg-gradient-to-r from-pink-500 to-red-600 p-4 text-center text-white font-mont  mr-1">Rb</div>
         <!-- Strontium -->
-        <div class="element bg-teal-200 p-4 text-center">Sr</div>
+        <div class="element bg-gradient-to-r from-red-500 to-amber-600 p-4 text-center text-white font-mont mr-1">Sr</div>
         <!-- Yttrium -->
-        <div class="element bg-indigo-300 p-4 text-center">Y</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Y</div>
         <!-- Zirconium -->
-        <div class="element bg-yellow-200 p-4 text-center">Zr</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Zr</div>
         <!-- Niobium -->
-        <div class="element bg-red-200 p-4 text-center">Nb</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Nb</div>
         <!-- Molybdenum -->
-        <div class="element bg-blue-200 p-4 text-center">Mo</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Mo</div>
         <!-- Technetium --> 
-        <div class="element bg-pink-400 p-4 text-center">Tc</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Tc</div>
         <!-- Ruthenium -->
-        <div class="element bg-orange-200 p-4 text-center">Ru</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Ru</div>
         <!--Rhodium -->
-        <div class="element bg-violet-400 p-4 text-center">Rh</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Rh</div>
         <!-- Palladium -->
-        <div class="element bg-red-200 p-4 text-center">Pd</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Pd</div>
         <!-- Silver --> 
-        <div class="element bg-green-300 p-4 text-center">Ag</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Ag</div>
         <!-- Cadmium -->
-        <div class="element bg-pink-200 p-4 text-center">Cd</div>
+        <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Cd</div>
         <!-- Indium -->
-        <div class="element bg-blue-200 p-4 text-center">In</div>
+        <div class="element bg-gradient-to-r from-violet-500 to-fuchsia-400 p-4 text-center text-white font-mont mr-1">In</div>
         <!-- Tin -->
-        <div class="element bg-yellow-200 p-4 text-center">Sn</div>
+        <div class="element bg-gradient-to-r from-violet-500 to-fuchsia-400 p-4 text-center text-white font-mont mr-1">Sn</div>
         <!-- Antimony --> 
-        <div class="element bg-violet-200 p-4 text-center">Sb</div>
+        <div class="element bg-gradient-to-r from-fuchsia-500 to-violet-700 p-4 text-center text-white font-mont mr-1">Sb</div>
         <!-- Tellerium --> 
-        <div class="element bg-green-200 p-4 text-center">Te</div>
+        <div class="element bg-gradient-to-r from-fuchsia-500 to-violet-700 p-4 text-center text-white font-mont mr-1">Te</div>
         <!-- Iodine -->
-        <div class="element bg-red-200 p-4 text-center">I</div>
+        <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">I</div>
         <!-- Xenon -->
-        <div class="element bg-blue-200 p-4 text-center">Xe</div>
+        <div class="element bg-gradient-to-r from-lime-400 to-green-700 p-4 text-center text-white font-mont">Xe</div>
        </div>
       </div>
     `

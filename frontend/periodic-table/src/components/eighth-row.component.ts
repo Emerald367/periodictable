@@ -4,42 +4,42 @@ import {Component} from '@angular/core'
     selector: 'eighth-row',
     standalone: true,
     template: `
-       <div class="max-w-full overflow-x-auto">
+       <div class="max-w-full overflow-x-auto mt-3 mb-1">
         <div class="flex flex-wrap justify-center">
           <!-- Empty Spaces -->
           <div class="empty-space"></div>
           <div class="empty-space"></div>
           <div class="empty-space"></div>
           <!-- Lanthanum -->
-          <div class="element bg-red-200 p-4 text-center">La</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1 ml-2">La</div>
           <!-- Cerium -->
-          <div class="element bg-yellow-200 p-4 text-center">Ce</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Ce</div>
           <!-- Praseodymium -->
-          <div class="element bg-blue-200 p-4 text-center">Pr</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Pr</div>
           <!-- Neodymium -->
-          <div class="element bg-violet-200 p-4 text-center">Nd</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Nd</div>
           <!-- Promethium -->
-          <div class="element bg-green-200 p-4 text-center">Pm</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Pm</div>
           <!-- Samarium -->
-          <div class="element bg-orange-200 p-4 text-center">Sm</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Sm</div>
           <!-- Europium -->
-          <div class="element bg-teal-200 p-4 text-center">Eu</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Eu</div>
           <!--Gadolinium -->
-          <div class="element bg-red-200 p-4 text-center">Gd</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Gd</div>
           <!-- Terbium --> 
-          <div class="element bg-violet-200 p-4 text-center">Tb</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Tb</div>
           <!-- Dysprosium -->
-          <div class="element bg-green-200 p-4 text-center">Dy</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Dy</div>
           <!-- Holomium --> 
-          <div class="element bg-yellow-200 p-4 text-center">Ho</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Ho</div>
           <!-- Erbium -->
-          <div class="element bg-blue-200 p-4 text-center">Er</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Er</div>
           <!-- Thulium -->
-          <div class="element bg-orange-200 p-4 text-center">Tm</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Tm</div>
           <!-- Ytterbium -->
-          <div class="element bg-red-200 p-4 text-center">Yb</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont mr-1">Yb</div>
           <!-- Lutetium -->
-          <div class="element bg-green-200 p-4 text-center">Lu</div>
+          <div class="element bg-gradient-to-r from-cyan-300 to-cyan-700 p-4 text-center text-white font-mont">Lu</div>
         </div>
        </div>
     `

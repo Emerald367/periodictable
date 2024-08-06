@@ -4,44 +4,44 @@ import {Component} from '@angular/core'
     selector: 'sixth-row',
     standalone: true, 
     template: `
-      <div class="max-w-full overflow-x-auto">
+      <div class="max-w-full overflow-x-auto mb-1">
        <div class="flex flex-wrap justify-center">
          <!-- Cesium -->
-         <div class="element bg-red-200 p-4 text-center">Cs</div>
+         <div class="element bg-gradient-to-r from-pink-500 to-red-600 p-4 text-center text-white font-mont mr-1">Cs</div>
          <!-- Barium -->
-         <div class="element bg-green-200 p-4 text-center">Ba</div>
+         <div class="element bg-gradient-to-r from-red-500 to-amber-600 p-4 text-center text-white font-mont mr-1">Ba</div>
          <!-- Empty Spaces -->
          <div class="empty-space"></div>
          <!-- Hafnium -->
-         <div class="element bg-yellow-200 p-4 text-center">Hf</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1 ml-1">Hf</div>
          <!-- Tantalum -->
-         <div class="element bg-violet-200 p-4 text-center">Ta</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Ta</div>
          <!-- Tungsten -->
-         <div class="element bg-orange-200 p-4 text-center">W</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">W</div>
          <!-- Rhenium -->
-         <div class="element bg-lime-200 p-4 text-center">Re</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Re</div>
          <!-- Osmium -->
-         <div class="element bg-red-200 p-4 text-center">Os</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Os</div>
          <!-- Iridium -->
-         <div class="element bg-green-200 p-4 text-center">Ir</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Ir</div>
          <!-- Platinum -->
-         <div class="element bg-pink-200 p-4 text-center">Pt</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Pt</div>
          <!-- Gold -->
-         <div class="element bg-yellow-200 p-4 text-center">Au</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Au</div>
          <!-- Mercury -->
-         <div class="element bg-violet-300 p-4 text-center">Hg</div>
+         <div class="element bg-gradient-to-r from-sky-400 to-blue-700 p-4 text-center text-white font-mont mr-1">Hg</div>
          <!-- Thallium -->
-         <div class="element bg-orange-200 p-4 text-center">TI</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-fuchsia-400 p-4 text-center text-white font-mont mr-1">TI</div>
          <!-- Lead -->
-         <div class="element bg-red-200 p-4 text-center">Pb</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-fuchsia-400 p-4 text-center text-white font-mont mr-1">Pb</div>
          <!-- Bismuth -->
-         <div class="element bg-gray-200 p-4 text-center">Bi</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-fuchsia-400 p-4 text-center text-white font-mont mr-1">Bi</div>
          <!-- Polonium -->
-         <div class="element bg-green-200 p-4 text-center">Po</div>
+         <div class="element bg-gradient-to-r from-fuchsia-500 to-violet-700 p-4 text-center text-white font-mont mr-1">Po</div>
          <!-- Astatine --> 
-         <div class="element bg-violet-200 p-4 text-center">At</div>
+         <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">At</div>
          <!-- Radon -->
-         <div class="element bg-blue-200 p-4 text-center">Rn</div>
+         <div class="element bg-gradient-to-r from-lime-400 to-green-700 p-4 text-center text-white font-mont">Rn</div>
        </div>
       </div>
     `

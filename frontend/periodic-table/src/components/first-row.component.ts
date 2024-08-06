@@ -4,10 +4,12 @@ import {Component} from '@angular/core'
     selector: 'first-row',
     standalone: true,
     template: `
-     <div class="max-w-full overflow-x-auto">
+     <div class="max-w-full overflow-x-auto mb-1">
       <div class="flex flex-wrap justify-center">
         <!-- Hydrogen -->
-        <div class="element bg-blue-200 p-4 text-center">H</div>
+        <div class="element bg-gradient-to-r from-violet-500 to-blue-700 text-center text-white font-mont p-4">
+          H
+        </div>
           <!-- Empty spaces -->
         <div class="empty-space"></div>
         <div class="empty-space"></div>
@@ -32,7 +34,7 @@ import {Component} from '@angular/core'
         <div class="empty-space"></div>
         <div class="empty-space"></div>
         <!-- Helium -->
-        <div class="element bg-blue-200 p-4 text-center">He</div>
+        <div class="element bg-gradient-to-r from-lime-400 to-green-700 p-4 text-center text-white font-mont">He</div>
       </div>
     </div>
     `
@@ -47,7 +49,7 @@ import {Component} from '@angular/core'
       .empty-space {
         flex: 1 0 5 5.55%;
         max-width: 5.55%; 
-        min-width: 50.85px;
+        min-width: 53.4px;
       }
     `]
 })

@@ -4,42 +4,42 @@ import {Component} from '@angular/core'
    selector: 'ninth-row',
    standalone: true,
    template: `
-      <div class="max-w-full overflow-x-auto">
+      <div class="max-w-full overflow-x-auto mb-5">
        <div class="flex flex-wrap justify-center">
          <!-- Empty Spaces -->
          <div class="empty-space"></div>
          <div class="empty-space"></div>
          <div class="empty-space"></div>
          <!-- Actinium -->
-         <div class="element bg-yellow-200 p-4 text-center">Ac</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1 ml-2">Ac</div>
          <!-- Thorium -->
-         <div class="element bg-green-200 p-4 text-center">Th</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Th</div>
          <!-- Protactinium -->
-         <div class="element bg-red-200 p-4 text-center">Pa</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Pa</div>
          <!-- Uranium -->
-         <div class="element bg-violet-200 p-4 text-center">U</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">U</div>
          <!-- Neptunium -->
-         <div class="element bg-orange-200 p-4 text-center">Np</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Np</div>
          <!-- Plutonium -->
-         <div class="element bg-pink-200 p-4 text-center">Pu</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Pu</div>
          <!-- Americium -->
-         <div class="element bg-blue-200 p-4 text-center">Am</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Am</div>
          <!-- Curium -->
-         <div class="element bg-lime-200 p-4 text-center">Cm</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Cm</div>
          <!-- Berkelium -->
-         <div class="element bg-yellow-200 p-4 text-center">Bk</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Bk</div>
          <!-- Californium -->
-         <div class="element bg-violet-400 p-4 text-center">Cf</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Cf</div>
          <!-- Einsteinium -->
-         <div class="element bg-green-400 p-4 text-center">Es</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Es</div>
          <!-- Fermium -->
-         <div class="element bg-orange-200 p-4 text-center">Fm</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Fm</div>
          <!-- Mendelevium -->
-         <div class="element bg-red-200 p-4 text-center">Md</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">Md</div>
          <!-- Nobelium -->
-         <div class="element bg-blue-200 p-4 text-center">No</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont mr-1">No</div>
          <!-- Lawrencium -->
-         <div class="element bg-purple-800 p-4 text-center">Lr</div>
+         <div class="element bg-gradient-to-r from-green-400 to-cyan-700 p-4 text-center text-white font-mont">Lr</div>
        </div>
       </div>
    `

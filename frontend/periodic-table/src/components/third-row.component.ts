@@ -4,12 +4,12 @@ import {Component} from '@angular/core'
     selector: 'third-row',
     standalone: true,
     template: `
-     <div class="max-w-full overflow-x-auto">
+     <div class="max-w-full overflow-x-auto mb-1">
       <div class="flex flex-wrap justify-center">
        <!-- Sodium -->
-       <div class="element bg-green-200 p-4 text-center">Na</div>
+       <div class="element bg-gradient-to-r from-pink-500 to-red-600 p-4 text-center text-white font-mont mr-1">Na</div>
        <!-- Magnesium -->
-       <div class="element bg-red-200 p-4 text-center">Mg</div>
+       <div class="element bg-gradient-to-r from-red-500 to-amber-600 p-4 text-center text-white font-mont mr-5">Mg</div>
        <!-- Empty Spaces -->
        <div class="empty-space"></div>
        <div class="empty-space"></div>
@@ -26,17 +26,17 @@ import {Component} from '@angular/core'
        <div class="empty-space"></div>
        <div class="empty-space"></div>
        <!-- Aluminum -->
-       <div class="element bg-green-200 p-4 text-center">Al</div>
+       <div class="element bg-gradient-to-r from-violet-500 to-fuchsia-400 p-4 text-center text-white font-mont mr-1 ml-6">Al</div>
        <!-- Silicon -->
-       <div class="element bg-blue-200 p-4 text-center">Si</div>
+       <div class="element bg-gradient-to-r from-fuchsia-500 to-violet-700 p-4 text-center text-white font-mont mr-1">Si</div>
        <!-- Phosphorus -->
-       <div class="element bg-green-200 p-4 text-center">P</div>
+       <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">P</div>
        <!-- Sulfur -->
-       <div class="element bg-red-200 p-4 text-center">S</div>
+       <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">S</div>
        <!-- Chlorine -->
-       <div class="element bg-orange-200 p-4 text-center">Cl</div>
+       <div class="element bg-gradient-to-r from-violet-500 to-blue-700 p-4 text-center text-white font-mont mr-1">Cl</div>
        <!-- Argon -->
-       <div class="element bg-indigo-200 p-4 text-center">Ar</div>
+       <div class="element bg-gradient-to-r from-lime-400 to-green-700 p-4 text-center text-white font-mont">Ar</div>
       </div>
      </div>
     `
@@ -51,7 +51,7 @@ import {Component} from '@angular/core'
       .empty-space {
         flex: 1 0 5 5.55%;
         max-width: 5.55%; 
-        min-width: 50px;
+        min-width: 49.4px;
       }
     `]
 })
