@@ -7,8 +7,11 @@ import {Component} from '@angular/core'
      <div class="max-w-full overflow-x-auto mb-1">
       <div class="flex flex-wrap justify-center">
         <!-- Hydrogen -->
-        <div class="element bg-gradient-to-r from-violet-500 to-blue-700 text-center text-white font-mont p-4">
-          H
+        <div class="element bg-gradient-to-r from-violet-500 to-blue-700 text-center text-white font-mont p-1">
+          <div class="atomic-number text-xs">1</div>
+          <div class="symbol text-sm">H</div>
+          <div class="element-name text-xs">Hydrogen</div>
+          <div class="atomic-weight text-xs">1.008</div>
         </div>
           <!-- Empty spaces -->
         <div class="empty-space"></div>
@@ -34,7 +37,12 @@ import {Component} from '@angular/core'
         <div class="empty-space"></div>
         <div class="empty-space"></div>
         <!-- Helium -->
-        <div class="element bg-gradient-to-r from-lime-400 to-green-700 p-4 text-center text-white font-mont">He</div>
+        <div class="element bg-gradient-to-r from-lime-500 to-green-700 p-1 text-center text-white font-mont">
+          <div class="atomic-number text-xs">2</div>
+          <div class="symbol text-sm">He</div>
+          <div class="element-name text-xs">Helium</div>
+          <div class="atomic-weight text-xs">4.0026</div>
+        </div>
       </div>
     </div>
     `
@@ -44,7 +52,7 @@ import {Component} from '@angular/core'
         flex: 1 0 5.55%; /* Flex-grow, flex-shrink, flex-basis */
         max-width: 4.55%; /* 100% / 18 */
         min-width: 50px; /* Minimum width to main square shape */
-        height: 70px;
+        height: 75px;
       }
       .empty-space {
         flex: 1 0 5 5.55%;
